@@ -1,0 +1,342 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* @UVDeskSupportCenter/Knowledgebase/lightSkin.html.twig */
+class __TwigTemplate_400cf10ef1aec8876784e900d162d16056046a1d7566242db6ddf2bc863c4df5 extends Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "@UVDeskSupportCenter/Knowledgebase/lightSkin.html.twig"));
+
+        // line 1
+        $context["brandColor"] = ((twig_get_attribute($this->env, $this->source, (isset($context["websiteConfiguration"]) || array_key_exists("websiteConfiguration", $context) ? $context["websiteConfiguration"] : (function () { throw new RuntimeError('Variable "websiteConfiguration" does not exist.', 1, $this->source); })()), "brandColor", [], "any", false, false, false, 1)) ? (twig_get_attribute($this->env, $this->source, (isset($context["websiteConfiguration"]) || array_key_exists("websiteConfiguration", $context) ? $context["websiteConfiguration"] : (function () { throw new RuntimeError('Variable "websiteConfiguration" does not exist.', 1, $this->source); })()), "brandColor", [], "any", false, false, false, 1)) : ("#7C70F4"));
+        // line 2
+        if ((((isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 2, $this->source); })()) != "#7C70F4") && ((isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 2, $this->source); })()) != "#7c70f4"))) {
+            // line 3
+            echo "<style>
+    .uv-btn-small,
+    .uv-btn,
+    .uv-btn-large,
+    .uv-btn-action,
+    .uv-btn-label {
+        background: ";
+            // line 9
+            echo twig_escape_filter($this->env, (isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 9, $this->source); })()), "html", null, true);
+            echo ";
+    }
+
+    .uv-btn-small:hover,
+    .uv-btn:hover,
+    .uv-btn-large:hover,
+    .uv-btn-action:hover,
+    .btn:hover,
+    .uv-btn-label:hover {
+        background: ";
+            // line 18
+            echo twig_escape_filter($this->env, (isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 18, $this->source); })()), "html", null, true);
+            echo ";
+        opacity: .85;
+    }
+
+    .uv-btn-small:active,
+    .uv-btn:active,
+    .uv-btn-large:active,
+    .uv-btn-action:active,
+    .btn:active,
+    .uv-btn-label:active {
+        background: ";
+            // line 28
+            echo twig_escape_filter($this->env, (isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 28, $this->source); })()), "html", null, true);
+            echo ";
+        opacity: .65;
+    }
+
+    .uv-btn-stroke:active {
+        border-color: ";
+            // line 33
+            echo twig_escape_filter($this->env, (isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 33, $this->source); })()), "html", null, true);
+            echo ";
+    }
+
+    .uv-dropdown .uv-dropdown-btn-active {
+        border: solid 1px ";
+            // line 37
+            echo twig_escape_filter($this->env, (isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 37, $this->source); })()), "html", null, true);
+            echo ";
+    }
+
+    .uv-select:focus,
+    .uv-field:focus,
+    .uv-search-inline:focus {
+        border-color: ";
+            // line 43
+            echo twig_escape_filter($this->env, (isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 43, $this->source); })()), "html", null, true);
+            echo ";
+    }
+
+    .uv-loader span:before,
+    .uv-loader span:after {
+        background: ";
+            // line 48
+            echo twig_escape_filter($this->env, (isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 48, $this->source); })()), "html", null, true);
+            echo ";
+    }
+
+    .bootstrap-datetimepicker-widget table td.active,
+    .bootstrap-datetimepicker-widget table td.active:hover {
+        background-color: ";
+            // line 53
+            echo twig_escape_filter($this->env, (isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 53, $this->source); })()), "html", null, true);
+            echo ";
+    }
+
+    .btn-primary,
+    .btn-primary:hover,
+    .btn-primary:active {
+        background-color: ";
+            // line 59
+            echo twig_escape_filter($this->env, (isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 59, $this->source); })()), "html", null, true);
+            echo ";
+    }
+
+    .uv-hero {
+        background-color: ";
+            // line 63
+            echo twig_escape_filter($this->env, (isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 63, $this->source); })()), "html", null, true);
+            echo ";
+    }
+    
+    .uv-cta-wrapper .uv-cta-lt svg path {
+        fill: ";
+            // line 67
+            echo twig_escape_filter($this->env, (isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 67, $this->source); })()), "html", null, true);
+            echo ";
+    }
+    .uv-kb-layout-folder .uv-kb-folder {
+        border-color: ";
+            // line 70
+            echo twig_escape_filter($this->env, (isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 70, $this->source); })()), "html", null, true);
+            echo ";
+    }
+
+    .uv-kb-layout-grid .uv-kb-folder{
+        border-color: ";
+            // line 74
+            echo twig_escape_filter($this->env, (isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 74, $this->source); })()), "html", null, true);
+            echo ";
+    }
+
+    .uv-kb-layout-folder .uv-kb-folder .uv-kb-folder-lt {
+        background-position: -90px 0px;
+        background-color: ";
+            // line 79
+            echo twig_escape_filter($this->env, (isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 79, $this->source); })()), "html", null, true);
+            echo ";
+    }
+    
+    .uv-paper-article .uv-paper-section .uv-folder-title:after {
+        background-color: ";
+            // line 83
+            echo twig_escape_filter($this->env, (isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 83, $this->source); })()), "html", null, true);
+            echo ";
+    }
+
+    .uv-kb-layout-category .uv-kb-folder {
+        border-bottom-color: ";
+            // line 87
+            echo twig_escape_filter($this->env, (isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 87, $this->source); })()), "html", null, true);
+            echo ";
+    }
+
+    .uv-brand {
+        color: ";
+            // line 91
+            echo twig_escape_filter($this->env, (isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 91, $this->source); })()), "html", null, true);
+            echo ";
+    }
+
+    .uv-pagination a:hover {
+        background-color: ";
+            // line 95
+            echo twig_escape_filter($this->env, (isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 95, $this->source); })()), "html", null, true);
+            echo ";
+        border-color: rgba(0,0,0,.1);
+    }
+
+    .uv-nav-tab ul.uv-nav-tab-label li .uv-nav-tab-active,
+    .uv-nav-tab ul.uv-nav-tab-label li a:hover {
+        border-bottom-color: ";
+            // line 101
+            echo twig_escape_filter($this->env, (isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 101, $this->source); })()), "html", null, true);
+            echo ";
+    }
+    .uv-skin-dark .uv-ticket-view .uv-ticket-accordion .uv-ticket-count-stat,
+    .uv-skin-dark .uv-ticket-view .uv-ticket-accordion .uv-ticket-count-stat:hover {
+        background: ";
+            // line 105
+            echo twig_escape_filter($this->env, (isset($context["brandColor"]) || array_key_exists("brandColor", $context) ? $context["brandColor"] : (function () { throw new RuntimeError('Variable "brandColor" does not exist.', 105, $this->source); })()), "html", null, true);
+            echo ";
+    }
+</style>
+";
+        }
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+    }
+
+    public function getTemplateName()
+    {
+        return "@UVDeskSupportCenter/Knowledgebase/lightSkin.html.twig";
+    }
+
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  205 => 105,  198 => 101,  189 => 95,  182 => 91,  175 => 87,  168 => 83,  161 => 79,  153 => 74,  146 => 70,  140 => 67,  133 => 63,  126 => 59,  117 => 53,  109 => 48,  101 => 43,  92 => 37,  85 => 33,  77 => 28,  64 => 18,  52 => 9,  44 => 3,  42 => 2,  40 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("{% set brandColor = websiteConfiguration.brandColor ?: '#7C70F4' %}
+{% if brandColor != '#7C70F4' and brandColor != '#7c70f4' %}
+<style>
+    .uv-btn-small,
+    .uv-btn,
+    .uv-btn-large,
+    .uv-btn-action,
+    .uv-btn-label {
+        background: {{ brandColor }};
+    }
+
+    .uv-btn-small:hover,
+    .uv-btn:hover,
+    .uv-btn-large:hover,
+    .uv-btn-action:hover,
+    .btn:hover,
+    .uv-btn-label:hover {
+        background: {{ brandColor }};
+        opacity: .85;
+    }
+
+    .uv-btn-small:active,
+    .uv-btn:active,
+    .uv-btn-large:active,
+    .uv-btn-action:active,
+    .btn:active,
+    .uv-btn-label:active {
+        background: {{ brandColor }};
+        opacity: .65;
+    }
+
+    .uv-btn-stroke:active {
+        border-color: {{ brandColor }};
+    }
+
+    .uv-dropdown .uv-dropdown-btn-active {
+        border: solid 1px {{ brandColor }};
+    }
+
+    .uv-select:focus,
+    .uv-field:focus,
+    .uv-search-inline:focus {
+        border-color: {{ brandColor }};
+    }
+
+    .uv-loader span:before,
+    .uv-loader span:after {
+        background: {{ brandColor }};
+    }
+
+    .bootstrap-datetimepicker-widget table td.active,
+    .bootstrap-datetimepicker-widget table td.active:hover {
+        background-color: {{ brandColor }};
+    }
+
+    .btn-primary,
+    .btn-primary:hover,
+    .btn-primary:active {
+        background-color: {{ brandColor }};
+    }
+
+    .uv-hero {
+        background-color: {{ brandColor }};
+    }
+    
+    .uv-cta-wrapper .uv-cta-lt svg path {
+        fill: {{ brandColor }};
+    }
+    .uv-kb-layout-folder .uv-kb-folder {
+        border-color: {{ brandColor }};
+    }
+
+    .uv-kb-layout-grid .uv-kb-folder{
+        border-color: {{ brandColor }};
+    }
+
+    .uv-kb-layout-folder .uv-kb-folder .uv-kb-folder-lt {
+        background-position: -90px 0px;
+        background-color: {{ brandColor }};
+    }
+    
+    .uv-paper-article .uv-paper-section .uv-folder-title:after {
+        background-color: {{ brandColor }};
+    }
+
+    .uv-kb-layout-category .uv-kb-folder {
+        border-bottom-color: {{ brandColor }};
+    }
+
+    .uv-brand {
+        color: {{ brandColor }};
+    }
+
+    .uv-pagination a:hover {
+        background-color: {{ brandColor }};
+        border-color: rgba(0,0,0,.1);
+    }
+
+    .uv-nav-tab ul.uv-nav-tab-label li .uv-nav-tab-active,
+    .uv-nav-tab ul.uv-nav-tab-label li a:hover {
+        border-bottom-color: {{ brandColor }};
+    }
+    .uv-skin-dark .uv-ticket-view .uv-ticket-accordion .uv-ticket-count-stat,
+    .uv-skin-dark .uv-ticket-view .uv-ticket-accordion .uv-ticket-count-stat:hover {
+        background: {{ brandColor }};
+    }
+</style>
+{% endif %}", "@UVDeskSupportCenter/Knowledgebase/lightSkin.html.twig", "/home/support.telenet.com.np/public_html/vendor/uvdesk/support-center-bundle/Resources/views/Knowledgebase/lightSkin.html.twig");
+    }
+}

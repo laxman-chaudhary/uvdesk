@@ -1,0 +1,3 @@
+<?php //Webkul%255CUVDesk%255CMailboxBundle%255CController%255CMailboxChannel
+
+return [PHP_INT_MAX, []];

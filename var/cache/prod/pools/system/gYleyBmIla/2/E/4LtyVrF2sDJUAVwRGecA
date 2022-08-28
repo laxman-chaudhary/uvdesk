@@ -1,0 +1,30 @@
+<?php //Webkul%255CUVDesk%255CCoreFrameworkBundle%255CEntity%255CUserInstance%2524userSavedReplies
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\OneToMany'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\OneToMany')),
+    ],
+    null,
+    [
+        'stdClass' => [
+            'mappedBy' => [
+                'user',
+            ],
+            'targetEntity' => [
+                'EmailTemplates',
+            ],
+            'cascade' => [
+                [
+                    'remove',
+                ],
+            ],
+            'orphanRemoval' => [
+                true,
+            ],
+        ],
+    ],
+    [
+        $o[0],
+    ],
+    []
+); }];

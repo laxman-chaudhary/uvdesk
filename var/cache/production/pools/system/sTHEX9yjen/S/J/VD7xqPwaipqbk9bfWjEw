@@ -1,0 +1,3 @@
+<?php //Webkul%255CUVDesk%255CExtensionFrameworkBundle%255CController%255CDashboard
+
+return [PHP_INT_MAX, []];
