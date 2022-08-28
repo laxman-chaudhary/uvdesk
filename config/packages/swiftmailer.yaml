@@ -1,0 +1,15 @@
+swiftmailer:
+    default_mailer: mailer_9381
+    mailers:
+        mailer_9381:
+            transport: smtp
+            username: support@telenet.com.np
+            password: TGF4bWFuMDA3Kg==
+            host: mail.telenet.com.np
+            port: 587
+            encryption: tls
+            auth_mode: login
+            sender_address: 
+            delivery_addresses: ['']
+            disable_delivery: false
+
